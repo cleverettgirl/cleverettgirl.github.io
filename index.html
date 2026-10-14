@@ -45,42 +45,42 @@
           <li>Started it in 20% time and built the case until it became a resourced product priority. Leadership now cites it as the model for IC-initiated, outcome-based roadmapping.</li>
           <li>Designed an edge-cache architecture that serves light and dark themes from a single cached page by resolving theme tokens in the browser rather than caching resolved values, and built the SSR and Cloudflare Workers plumbing to support it. Avoiding a per-theme cache split let post pages settle at a steady ~60% edge hit rate across ~4M daily views after full rollout.</li>
           <li>Wrote the TDD and built the CSS-variable theming foundation, then drove dark mode across 100+ pages of Medium’s web app, spanning reader surfaces, writer tools, and membership flows, migrating design system tokens in partnership with Design.</li>
-          <li>Presented the architecture at company all-hands and led knowledge-share sessions on edge caching so other engineers could build on it.</li>
-          <li>Shipped to 100% of users on Oct 1, 2026.</li>
+          <li>Presented the architecture at company all-hands and led knowledge-share sessions on edge caching so other engineers could build on it. <span class="todo">[confirm sessions; add who built on the TDD]</span></li>
+          <li>Shipped to 100% of users on Oct 1, 2026. <span class="todo">[Adoption: X% of sessions in dark mode]</span></li>
         </ul>
 
         <h4>Reposting <span class="subtitle">· web lead across three phases (v0 → v2)</span></h4>
         <ul>
-          <li>Owned core front-end delivery for a feature touching nearly every surface of medium.com: repost button, undo flow, notifications, stats, privacy settings, and the logged-out flow.</li>
-          <li>Challenged the original test plan, a repost button with simulated state and no real feature behind it, by flagging that novelty effects would inflate engagement and that it wasn’t a valid painted-door test. Proposed a waitlist-based alternative and coached the team on what a valid painted-door test requires.</li>
+          <li>Owned core front-end delivery for a feature touching nearly every surface of medium.com: repost button, undo flow, notifications, stats, privacy settings, and the logged-out flow. <span class="todo">[outcome metric]</span></li>
+          <li>Challenged the original test plan, a repost button with simulated state and no real feature behind it, by flagging that novelty effects would inflate engagement and that it wasn’t a valid painted-door test. Proposed a waitlist-based alternative and coached the team on what a valid painted-door test requires. <span class="todo">[what v1 became and the result]</span></li>
           <li>Built the Sprig survey and Statsig gating infrastructure for UX Research’s studies (200+ responses) and taught the researcher to self-serve data analysis with AI and Snowflake.</li>
           <li>Diagnosed why v0 couldn’t ship in two weeks: decision latency, not engineering. Her jobs-to-be-done framing shaped the final repost preview designs.</li>
         </ul>
 
         <h4>AI Guild <span class="subtitle">· self-directed “skills and fluency” lead</span></h4>
         <ul>
-          <li>Took on the skills and fluency role without a formal mandate. Completed the Anthropic AI fluency course, surveyed engineers across the org about what makes AI hardest to use, and synthesized the answers into problem statements the guild now uses: hidden labor, direction ambiguity, and the “expert tax” where a few people absorb every AI question.</li>
+          <li>Took on the skills and fluency role without a formal mandate. Completed the Anthropic AI fluency course, surveyed engineers across the org about what makes AI hardest to use <span class="todo">[N engineers / N responses]</span>, and synthesized the answers into problem statements the guild now uses: hidden labor, direction ambiguity, and the “expert tax” where a few people absorb every AI question.</li>
           <li>Reframed the problem as organizational rather than technical. A timeline analysis of Reposting showed one open question (deletion cascades) bouncing across three venues for nearly four weeks. Her conclusion, shared publicly, was that AI doesn’t fix this: alignment and decision-making are still the bottleneck. It has since shaped how the guild discusses measuring AI impact.</li>
           <li>When an agent framework was proposed as an engineering standard, laid out the costs explicitly so the decision was made deliberately rather than by default.</li>
-          <li>Hosted and curated the eng all-hands on AI: recruited presenters across web, iOS, and mobile tooling, set the agenda, and ran the session.</li>
-          <li>Built Claude skills that reconstruct sprint timelines from Linear/Slack/Notion and automate Statsig experiment analysis.</li>
+          <li>Hosted and curated the eng all-hands on AI: recruited presenters across web, iOS, and mobile tooling, set the agenda, and ran the session. <span class="todo">[attendance]</span></li>
+          <li>Built Claude skills that reconstruct sprint timelines from Linear/Slack/Notion and automate Statsig experiment analysis. <span class="todo">[N users / time saved]</span></li>
         </ul>
 
         <h4>Cross-functional leverage and team building</h4>
         <ul>
-          <li>Ran workshops on defining success metrics for new products using Statsig best practices: choosing a primary metric versus secondary metrics, and anchoring each feature in its job to be done.</li>
-          <li>Scoped and built a Statsig-gated, self-serve banner system so Comms can run campaigns (text, link, targeting) without an engineer each time. It replaced 300+ lines of legacy banner code.</li>
+          <li>Ran workshops on defining success metrics for new products using Statsig best practices: choosing a primary metric versus secondary metrics, and anchoring each feature in its job to be done. <span class="todo">[N workshops, N teams, N attendees]</span></li>
+          <li>Scoped and built a Statsig-gated, self-serve banner system so Comms can run campaigns (text, link, targeting) without an engineer each time. It replaced 300+ lines of legacy banner code. <span class="todo">[N campaigns / eng hours saved]</span></li>
           <li>Started the practice of pulling engineering into design jams, and worked with Design on design-system token and hover improvements.</li>
-          <li>Co-designed the Staff Frontend interview loop and interviewed all five finalists. Mentors engineers on the web team.</li>
-          <li>Cleared hundreds of weekly Datadog errors and built launch dashboards.</li>
+          <li>Co-designed the Staff Frontend interview loop and interviewed all five finalists. Mentors engineers on the web team. <span class="todo">[N engineers]</span></li>
+          <li>Cleared hundreds of weekly Datadog errors and built launch dashboards. <span class="todo">[error volume reduced X%]</span></li>
         </ul>
 
         <h4>Earlier work <span class="subtitle">· 2019–2024</span></h4>
         <ul>
-          <li><strong>Topic Portals, Eng Lead:</strong> set the engineering plan and coordinated backend, Android, iOS, and web.</li>
+          <li><strong>Topic Portals, Eng Lead:</strong> set the engineering plan and coordinated backend, Android, iOS, and web. <span class="todo">[outcome]</span></li>
           <li><strong>Web Onboarding Topics:</strong> ran a topic-selection experiment in registration that lifted reading time 32%.</li>
-          <li><strong>Media Optimization:</strong> cut post-page LCP and CLS using srcset and WebP (up to ~50% smaller images).</li>
-          <li><strong>Maim-the-Meter:</strong> ran registration-wall experiments on logged-out post pages.</li>
+          <li><strong>Media Optimization:</strong> cut post-page LCP and CLS using srcset and WebP (up to ~50% smaller images). <span class="todo">[LCP improvement X%]</span></li>
+          <li><strong>Maim-the-Meter:</strong> ran registration-wall experiments on logged-out post pages. <span class="todo">[result]</span></li>
         </ul>
       </article>
 
