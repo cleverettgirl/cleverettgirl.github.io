@@ -41,12 +41,10 @@
 
         <h4>Dark Mode on Web <span class="subtitle">· self-initiated, sole engineering owner</span></h4>
         <ul>
-          <li>Identified dark mode as a persistent unmet need: roughly one unprompted request per week in the UX feedback channel over 11 months (~55 requests), and 11+ members cited its absence when cancelling (a floor, since only ~8% of cancellers leave comments).</li>
-          <li>Started it in 20% time and built the case until it became a resourced product priority. Leadership now cites it as the model for IC-initiated, outcome-based roadmapping.</li>
+          <li>Started dark mode in 20% time after readers asked for it about once a week for nearly a year, and some members said they were cancelling without it. Built the case until it became a funded priority, now cited by company leadership as an example of engineers driving the roadmap from user needs.</li>
           <li>Designed an edge-cache architecture that serves light and dark themes from a single cached page by resolving theme tokens in the browser rather than caching resolved values, and integrated it into the existing SSR and Cloudflare Workers edge-cache pipeline. Avoiding a per-theme cache split let post pages settle at a steady ~60% edge hit rate across ~4M daily views after full rollout.</li>
-          <li>Wrote the TDD and built the CSS-variable theming foundation, then drove dark mode across 100+ pages of Medium’s web app, spanning reader surfaces, writer tools, and membership flows, migrating design system tokens in partnership with Design.</li>
-          <li>Presented the architecture at company all-hands and led knowledge-share sessions on edge caching so other engineers could build on it. <span class="todo">[confirm sessions; add who built on the TDD]</span></li>
-          <li>Shipped to 100% of users on Oct 1, 2026. <span class="todo">[Adoption: X% of sessions in dark mode]</span></li>
+          <li>Built the CSS-variable theming foundation and drove dark mode across 100+ pages of Medium’s web app, spanning reader surfaces, writer tools, and membership flows, migrating design system tokens in partnership with Design.</li>
+          <li>Shipped progressively from Sept 15 to 100% of users on Oct 1, 2026, five months after the first pull request (May 8), while carrying three phases of Reposting and contributing to the AI guild, Staff Frontend hiring, and the self-serve banner system. Dark mode follows the device setting by default, so ~40% of web sessions get it with no action required, and ~4K readers have explicitly chosen it in the first two weeks.</li>
         </ul>
 
         <h4>Reposting <span class="subtitle">· web lead across three phases (v0 → v2)</span></h4>
