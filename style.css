@@ -6,6 +6,7 @@
   --muted: light-dark(#5b6370, #9aa3ad);
   --accent: light-dark(#1a5fb4, #7fb0ff);
   --rule: light-dark(#e3e6ea, #2c3036);
+  --highlight: light-dark(rgb(255 0 170 / 0.28), rgb(255 70 200 / 0.42));
 }
 
 *,
@@ -69,8 +70,15 @@ h2 {
   font-size: 0.8rem;
   text-transform: uppercase;
   letter-spacing: 0.08em;
-  color: var(--muted);
-  margin: 0 0 0.75rem;
+  color: var(--text);
+  margin: 0 0 0.75rem -0.3em;
+  /* Highlighter streak across the lower half of the text */
+  width: fit-content;
+  padding: 0 0.3em;
+  background: linear-gradient(transparent 30%, var(--highlight) 30%, var(--highlight) 95%, transparent 95%);
+  border-radius: 0.15em 0.4em 0.2em 0.5em;
+  print-color-adjust: exact;
+  -webkit-print-color-adjust: exact;
 }
 
 h3 {
